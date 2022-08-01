@@ -13,6 +13,7 @@ const potusParse = function (url){
             console.log(err);
         });
 };
+module.exports = potusParse;
 // rp(url)
 // .then(function(html){
 //     console.log($('.firstHeading', html).text());
